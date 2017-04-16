@@ -1,0 +1,9 @@
+
+{% block content %}
+    <h2>All Songs:</h2>
+    <ul>
+        {% for publisher in object_list %}
+            <li><a href = "{{ publisher.id }} ">{{ publisher.song_name }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
