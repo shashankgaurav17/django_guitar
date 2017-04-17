@@ -3,7 +3,7 @@ from django.views.generic import ListView
 from django.http import HttpResponse
 from details.models import Details
 from .models import Details
-from login.models import Login
+#from login.models import Login
 
 # Create your views here.
 
@@ -20,3 +20,15 @@ class DetailsId(ListView):
 #def detailsId(request, album_id):
 #    return HttpResponse("<h2>Details for Album id : " + str(album_id) + "</h2>")
     #return render(request,album_id,'details/detailsID.html')
+
+class BrowseList(ListView):
+    template_name = "details/browse.html"
+
+def login(request):
+    return render(request,'details/login.html')
+
+def home(request):
+    return render(request,'details/home.html')
+
+#def browse(request):
+#    return render(request,'details/browse.html')
