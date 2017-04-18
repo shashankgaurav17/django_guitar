@@ -20,6 +20,7 @@ class DetailsId(ListView):
 	if id is not None:
 	    return Response({"detail":"Proper value required"}, status = status.HTTP_400_BAD_REQUEST)
 	else:
+		return render(request,'details/home.html')
 	    #do your work over here
 #    return render(request,'details/index.html')
 
