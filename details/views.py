@@ -3,6 +3,7 @@ from django.views.generic import ListView
 from django.http import HttpResponse
 from details.models import Details
 from .models import Details
+from rest_framework.response import Response
 #from login.models import Login
 
 # Create your views here.
@@ -14,7 +15,12 @@ class DetailsList(ListView):
 class DetailsId(ListView):
     template_name = "details/detailsID.html"
     model = Details
-
+    def get_context_data(self, **kwargs):
+	id = self.request.GET.get('album_id',None)
+	if id is not None:
+	    return Response({"detail":"Proper value required"}, status = status.HTTP_400_BAD_REQUEST)
+	else:
+	    #do your work over here
 #    return render(request,'details/index.html')
 
 #def detailsId(request, album_id):

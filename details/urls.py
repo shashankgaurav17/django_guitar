@@ -11,7 +11,8 @@ urlpatterns = [
 #    url(r'^$', views.details, name='details'),
 #    url(r'^(?P<album_id>[0-9]+)/$',views.detailsId, name='detailsId'),
     
-    url(r'^(?P<album_id>[0-9]+)/$', DetailsId.as_view(), name='detailsId'),
+    #url(r'^(?P<album_id>[0-9]+)/$', DetailsId.as_view(), name='detailsId'),
+    url(r'^detailid/$', DetailsId.as_view(), name='detailsId'),
     #browse
     url(r'^browse/$', BrowseList.as_view(), name='browse'),
     #details
