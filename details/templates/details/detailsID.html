@@ -1,15 +1,17 @@
 {{request.GET.param1}}
 
 {% block content %}
-    <h2>Song Details: </h2>
+    <h2>Song Details: lol </h2>
     <ul>
-        {% for det in object_list %}
+        {% for det in list %}
             <li>{{ det.song_name }}</li>
             <li>{{ det.cappo }}</li>
             <li>{{ det.language }}</li>
             <li>{{ det.type }}</li>
             <li>{{ det.url }}</li>
             <li>{{ det.lyrics }}</li>
+            <li>*******************</li>
         {% endfor %}
     </ul>
+    
 {% endblock %}

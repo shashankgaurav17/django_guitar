@@ -1,1 +1,60 @@
 <h1> This is browse PAge </h1>
+
+
+<table  border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tbody >
+        <tr >
+          <td  valign="top">
+            
+              <div  id="categorySelector">
+                <div  class="mainCategory"><a  href="">All</a></div>
+                <div  class="mainCategory"><a  href="?language=English">All English</a></div>
+
+                <div  class="subcategories" id="subcat_RET_PRODUCT_ASSISTANCE">
+                  <div  class="item"><a  href="?type=Video&language=English">English Videos</a></div>
+
+                  <div  class="item"><a  href="?type=Lyrics&language=English">English Lyrics</a></div>
+
+                </div>
+
+                <div  class="mainCategory"><a  href="?language=Hindi">All Hindi</a></div>
+
+                <div  class="subcategories" id="subcat_RET_PRODUCT_ASSISTANCE">
+                  <div  class="item"><a  href="?type=Video&language=Hindi">Hindi Videos</a></div>
+
+                  <div  class="item"><a  href="?type=Lyrics&language=Hindi">Hindi Lyrics</a></div>
+
+                </div>
+
+              </div>
+ 
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</br>
+
+    <table border="1px">
+        <thead>
+            <th>
+                <td>Song Name</td>
+                <td>Cappo</td>
+                <td>Language</td>
+                <td>Type</td>
+            </th>
+        </thead>
+
+        <tbody>
+            {% for detail in details2 %}
+            <tr>
+                <td>{{ detail.id }}</td>
+                <td>{{ detail.song_name }}</td> 
+                <td>{{ detail.cappo }}</td>
+                <td>{{ detail.language }}</td>
+                <td>{{ detail.type }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+
+    </table>
+
