@@ -2315,3 +2315,1063 @@ Method Not Allowed (POST): /details/
 (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
 (0.000) SET SQL_AUTO_IS_NULL = 0; args=None
 (0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-23 12:09:14.219000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-23 12:09:14.219000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.744) SHOW FULL TABLES; args=None
+(0.087) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.095) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:38:48.970000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:38:48.970000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:38:49.119000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:38:49.119000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:39:02.592000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:39:02.592000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:39:09.154000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:39:09.154000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:39:09.187000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:39:09.187000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:39:15.009000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:39:15.009000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:39:15.037000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:39:15.037000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5' AND `django_session`.`expire_date` > '2017-04-24 14:39:19.749000'); args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5', u'2017-04-24 14:39:19.749000')
+(0.033) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.009) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq' LIMIT 1; args=(u'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq',)
+(0.056) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('m1xtypso8lmmjsw8rv8rvdmhubnb2qnq', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:39:19.854000'); args=(u'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:39:19.854000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'abkr7rpbb4z86tdg6xyy0evhe195nlw5'; args=('abkr7rpbb4z86tdg6xyy0evhe195nlw5',)
+(0.024) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('abkr7rpbb4z86tdg6xyy0evhe195nlw5'); args=(u'abkr7rpbb4z86tdg6xyy0evhe195nlw5',)
+(0.135) UPDATE `auth_user` SET `last_login` = '2017-04-24 14:39:20.080000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 14:39:20.080000', 3)
+(0.007) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 14:39:20.288000' WHERE `django_session`.`session_key` = 'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:39:20.288000', u'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq' AND `django_session`.`expire_date` > '2017-04-24 14:39:20.346000'); args=('m1xtypso8lmmjsw8rv8rvdmhubnb2qnq', u'2017-04-24 14:39:20.346000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.066) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq' AND `django_session`.`expire_date` > '2017-04-24 14:39:26.637000'); args=('m1xtypso8lmmjsw8rv8rvdmhubnb2qnq', u'2017-04-24 14:39:26.637000')
+(0.007) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq'; args=('m1xtypso8lmmjsw8rv8rvdmhubnb2qnq',)
+(0.089) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('m1xtypso8lmmjsw8rv8rvdmhubnb2qnq'); args=(u'm1xtypso8lmmjsw8rv8rvdmhubnb2qnq',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '2f28f1s7pqypk2dj3kr4rt4h4rcwturz' LIMIT 1; args=(u'2f28f1s7pqypk2dj3kr4rt4h4rcwturz',)
+(0.000) UPDATE `django_session` SET `session_data` = 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', `expire_date` = '2017-05-08 14:39:37.444000' WHERE `django_session`.`session_key` = '2f28f1s7pqypk2dj3kr4rt4h4rcwturz'; args=(u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:39:37.444000', u'2f28f1s7pqypk2dj3kr4rt4h4rcwturz')
+(0.024) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('2f28f1s7pqypk2dj3kr4rt4h4rcwturz', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:39:37.444000'); args=(u'2f28f1s7pqypk2dj3kr4rt4h4rcwturz', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:39:37.444000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.012) SHOW FULL TABLES; args=None
+(0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 10, in <module>
+    url(r'^login/$', auth_views.login, name='login'),
+NameError: name 'auth_views' is not defined
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 10, in <module>
+    url(r'^login/$', auth_views.login, name='login'),
+NameError: name 'auth_views' is not defined
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '2f28f1s7pqypk2dj3kr4rt4h4rcwturz' AND `django_session`.`expire_date` > '2017-04-24 14:42:19.909000'); args=('2f28f1s7pqypk2dj3kr4rt4h4rcwturz', u'2017-04-24 14:42:19.909000')
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '2f28f1s7pqypk2dj3kr4rt4h4rcwturz'; args=('2f28f1s7pqypk2dj3kr4rt4h4rcwturz',)
+(0.020) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('2f28f1s7pqypk2dj3kr4rt4h4rcwturz'); args=(u'2f28f1s7pqypk2dj3kr4rt4h4rcwturz',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /login/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "C:\Python27\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "C:\Python27\lib\site-packages\django\template\response.py", line 135, in rendered_content
+    content = template.render(context, self._request)
+  File "C:\Python27\lib\site-packages\django\template\backends\django.py", line 74, in render
+    return self.template.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 209, in render
+    return self._render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 201, in _render
+    return self.nodelist.render(context)
+  File "C:\Python27\lib\site-packages\django\template\base.py", line 903, in render
+    bit = self.render_node(node, context)
+  File "C:\Python27\lib\site-packages\django\template\debug.py", line 79, in render_node
+    return node.render(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 113, in render
+    compiled_parent = self.get_parent(context)
+  File "C:\Python27\lib\site-packages\django\template\loader_tags.py", line 110, in get_parent
+    return context.template.engine.get_template(parent)
+  File "C:\Python27\lib\site-packages\django\template\engine.py", line 167, in get_template
+    template, origin = self.find_template(template_name, dirs)
+  File "C:\Python27\lib\site-packages\django\template\engine.py", line 146, in find_template
+    raise TemplateDoesNotExist(name)
+TemplateDoesNotExist: base_generic.html
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'sybw81lc37eec74nvhjigsrzptxg84tz' LIMIT 1; args=(u'sybw81lc37eec74nvhjigsrzptxg84tz',)
+(0.019) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('sybw81lc37eec74nvhjigsrzptxg84tz', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:54:57.292000'); args=(u'sybw81lc37eec74nvhjigsrzptxg84tz', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:54:57.292000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'sybw81lc37eec74nvhjigsrzptxg84tz'; args=(u'sybw81lc37eec74nvhjigsrzptxg84tz',)
+(0.014) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('sybw81lc37eec74nvhjigsrzptxg84tz'); args=(u'sybw81lc37eec74nvhjigsrzptxg84tz',)
+(0.029) UPDATE `auth_user` SET `last_login` = '2017-04-24 14:54:57.464000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 14:54:57.464000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 14:54:57.522000' WHERE `django_session`.`session_key` = 'sybw81lc37eec74nvhjigsrzptxg84tz'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:54:57.522000', u'sybw81lc37eec74nvhjigsrzptxg84tz')
+(0.018) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('sybw81lc37eec74nvhjigsrzptxg84tz', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 14:54:57.522000'); args=(u'sybw81lc37eec74nvhjigsrzptxg84tz', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:54:57.522000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'sybw81lc37eec74nvhjigsrzptxg84tz' AND `django_session`.`expire_date` > '2017-04-24 14:55:10.784000'); args=('sybw81lc37eec74nvhjigsrzptxg84tz', u'2017-04-24 14:55:10.784000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'sybw81lc37eec74nvhjigsrzptxg84tz'; args=('sybw81lc37eec74nvhjigsrzptxg84tz',)
+(0.013) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('sybw81lc37eec74nvhjigsrzptxg84tz'); args=(u'sybw81lc37eec74nvhjigsrzptxg84tz',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.006) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'x9s9ytsyjev1lp6loxsvd3vi34n23keg' LIMIT 1; args=(u'x9s9ytsyjev1lp6loxsvd3vi34n23keg',)
+(0.032) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('x9s9ytsyjev1lp6loxsvd3vi34n23keg', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:57:33.274000'); args=(u'x9s9ytsyjev1lp6loxsvd3vi34n23keg', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:57:33.274000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'x9s9ytsyjev1lp6loxsvd3vi34n23keg'; args=(u'x9s9ytsyjev1lp6loxsvd3vi34n23keg',)
+(0.002) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('x9s9ytsyjev1lp6loxsvd3vi34n23keg'); args=(u'x9s9ytsyjev1lp6loxsvd3vi34n23keg',)
+(0.036) UPDATE `auth_user` SET `last_login` = '2017-04-24 14:57:33.674000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 14:57:33.674000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 14:57:33.768000' WHERE `django_session`.`session_key` = 'x9s9ytsyjev1lp6loxsvd3vi34n23keg'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:57:33.768000', u'x9s9ytsyjev1lp6loxsvd3vi34n23keg')
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('x9s9ytsyjev1lp6loxsvd3vi34n23keg', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 14:57:33.768000'); args=(u'x9s9ytsyjev1lp6loxsvd3vi34n23keg', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:57:33.768000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.043) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'x9s9ytsyjev1lp6loxsvd3vi34n23keg' AND `django_session`.`expire_date` > '2017-04-24 14:57:44.749000'); args=('x9s9ytsyjev1lp6loxsvd3vi34n23keg', u'2017-04-24 14:57:44.749000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'x9s9ytsyjev1lp6loxsvd3vi34n23keg'; args=('x9s9ytsyjev1lp6loxsvd3vi34n23keg',)
+(0.034) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('x9s9ytsyjev1lp6loxsvd3vi34n23keg'); args=(u'x9s9ytsyjev1lp6loxsvd3vi34n23keg',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.017) SHOW FULL TABLES; args=None
+(0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'h2wa378ovezp02ftuyuuil830zcgsam1' LIMIT 1; args=(u'h2wa378ovezp02ftuyuuil830zcgsam1',)
+(0.021) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('h2wa378ovezp02ftuyuuil830zcgsam1', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:58:31.654000'); args=(u'h2wa378ovezp02ftuyuuil830zcgsam1', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:58:31.654000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'h2wa378ovezp02ftuyuuil830zcgsam1'; args=(u'h2wa378ovezp02ftuyuuil830zcgsam1',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('h2wa378ovezp02ftuyuuil830zcgsam1'); args=(u'h2wa378ovezp02ftuyuuil830zcgsam1',)
+(0.039) UPDATE `auth_user` SET `last_login` = '2017-04-24 14:58:31.778000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 14:58:31.778000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 14:58:31.854000' WHERE `django_session`.`session_key` = 'h2wa378ovezp02ftuyuuil830zcgsam1'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:58:31.854000', u'h2wa378ovezp02ftuyuuil830zcgsam1')
+(0.002) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('h2wa378ovezp02ftuyuuil830zcgsam1', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 14:58:31.854000'); args=(u'h2wa378ovezp02ftuyuuil830zcgsam1', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:58:31.854000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'h2wa378ovezp02ftuyuuil830zcgsam1' AND `django_session`.`expire_date` > '2017-04-24 14:58:36.342000'); args=('h2wa378ovezp02ftuyuuil830zcgsam1', u'2017-04-24 14:58:36.342000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'h2wa378ovezp02ftuyuuil830zcgsam1'; args=('h2wa378ovezp02ftuyuuil830zcgsam1',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('h2wa378ovezp02ftuyuuil830zcgsam1'); args=(u'h2wa378ovezp02ftuyuuil830zcgsam1',)
+Internal Server Error: /logout/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 164, in get_response
+    response = response.render()
+  File "C:\Python27\lib\site-packages\django\template\response.py", line 158, in render
+    self.content = self.rendered_content
+  File "C:\Python27\lib\site-packages\django\template\response.py", line 133, in rendered_content
+    template = self._resolve_template(self.template_name)
+  File "C:\Python27\lib\site-packages\django\template\response.py", line 88, in _resolve_template
+    new_template = self.resolve_template(template)
+  File "C:\Python27\lib\site-packages\django\template\response.py", line 80, in resolve_template
+    return loader.get_template(template, using=self.using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: logged_out.html
+Forbidden (CSRF token missing or incorrect.): /login/
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'fe0id6uykxx9t42493tgsic07r5uocdi' LIMIT 1; args=(u'fe0id6uykxx9t42493tgsic07r5uocdi',)
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('fe0id6uykxx9t42493tgsic07r5uocdi', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:59:16.295000'); args=(u'fe0id6uykxx9t42493tgsic07r5uocdi', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:59:16.295000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'fe0id6uykxx9t42493tgsic07r5uocdi'; args=(u'fe0id6uykxx9t42493tgsic07r5uocdi',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('fe0id6uykxx9t42493tgsic07r5uocdi'); args=(u'fe0id6uykxx9t42493tgsic07r5uocdi',)
+(0.041) UPDATE `auth_user` SET `last_login` = '2017-04-24 14:59:16.480000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 14:59:16.480000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 14:59:16.547000' WHERE `django_session`.`session_key` = 'fe0id6uykxx9t42493tgsic07r5uocdi'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:59:16.547000', u'fe0id6uykxx9t42493tgsic07r5uocdi')
+(0.011) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('fe0id6uykxx9t42493tgsic07r5uocdi', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 14:59:16.547000'); args=(u'fe0id6uykxx9t42493tgsic07r5uocdi', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 14:59:16.547000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'fe0id6uykxx9t42493tgsic07r5uocdi' AND `django_session`.`expire_date` > '2017-04-24 14:59:21.425000'); args=('fe0id6uykxx9t42493tgsic07r5uocdi', u'2017-04-24 14:59:21.425000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'fe0id6uykxx9t42493tgsic07r5uocdi'; args=('fe0id6uykxx9t42493tgsic07r5uocdi',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('fe0id6uykxx9t42493tgsic07r5uocdi'); args=(u'fe0id6uykxx9t42493tgsic07r5uocdi',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'syrpw1vm6kd7lmpqarhgsfxf231t3an1' LIMIT 1; args=(u'syrpw1vm6kd7lmpqarhgsfxf231t3an1',)
+(0.000) UPDATE `django_session` SET `session_data` = 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', `expire_date` = '2017-05-08 14:59:21.967000' WHERE `django_session`.`session_key` = 'syrpw1vm6kd7lmpqarhgsfxf231t3an1'; args=(u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:59:21.967000', u'syrpw1vm6kd7lmpqarhgsfxf231t3an1')
+(0.019) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('syrpw1vm6kd7lmpqarhgsfxf231t3an1', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:59:21.967000'); args=(u'syrpw1vm6kd7lmpqarhgsfxf231t3an1', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:59:21.967000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'syrpw1vm6kd7lmpqarhgsfxf231t3an1' AND `django_session`.`expire_date` > '2017-04-24 14:59:28.070000'); args=('syrpw1vm6kd7lmpqarhgsfxf231t3an1', u'2017-04-24 14:59:28.070000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'test'; args=(u'test',)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'syrpw1vm6kd7lmpqarhgsfxf231t3an1' AND `django_session`.`expire_date` > '2017-04-24 14:59:43.904000'); args=('syrpw1vm6kd7lmpqarhgsfxf231t3an1', u'2017-04-24 14:59:43.904000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'user1'; args=(u'user1',)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'syrpw1vm6kd7lmpqarhgsfxf231t3an1' AND `django_session`.`expire_date` > '2017-04-24 14:59:49.829000'); args=('syrpw1vm6kd7lmpqarhgsfxf231t3an1', u'2017-04-24 14:59:49.829000')
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'n9yh8y8emptzubfr7uj0kl5oo1l7fivy' LIMIT 1; args=(u'n9yh8y8emptzubfr7uj0kl5oo1l7fivy',)
+(0.024) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('n9yh8y8emptzubfr7uj0kl5oo1l7fivy', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 14:59:49.833000'); args=(u'n9yh8y8emptzubfr7uj0kl5oo1l7fivy', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 14:59:49.833000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'syrpw1vm6kd7lmpqarhgsfxf231t3an1'; args=('syrpw1vm6kd7lmpqarhgsfxf231t3an1',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('syrpw1vm6kd7lmpqarhgsfxf231t3an1'); args=(u'syrpw1vm6kd7lmpqarhgsfxf231t3an1',)
+(0.032) UPDATE `auth_user` SET `last_login` = '2017-04-24 14:59:49.991000' WHERE `auth_user`.`id` = 4; args=(u'2017-04-24 14:59:49.991000', 4)
+(0.000) UPDATE `django_session` SET `session_data` = 'NjRmZDU1MDIxODIyYTNhMjM5NTU3MzNlMmQ5ZWYwNDlkNzBhMTcyMDp7Il9hdXRoX3VzZXJfaGFzaCI6ImJjNjdiNTEzMGQ1YWY2MTc3NTM5MDZmNzVjNzA4Y2RhMDFhNTU2ZWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI0In0=', `expire_date` = '2017-05-08 14:59:50.055000' WHERE `django_session`.`session_key` = 'n9yh8y8emptzubfr7uj0kl5oo1l7fivy'; args=(u'NjRmZDU1MDIxODIyYTNhMjM5NTU3MzNlMmQ5ZWYwNDlkNzBhMTcyMDp7Il9hdXRoX3VzZXJfaGFzaCI6ImJjNjdiNTEzMGQ1YWY2MTc3NTM5MDZmNzVjNzA4Y2RhMDFhNTU2ZWMiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiI0In0=', u'2017-05-08 14:59:50.055000', u'n9yh8y8emptzubfr7uj0kl5oo1l7fivy')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'n9yh8y8emptzubfr7uj0kl5oo1l7fivy' AND `django_session`.`expire_date` > '2017-04-24 14:59:56.139000'); args=('n9yh8y8emptzubfr7uj0kl5oo1l7fivy', u'2017-04-24 14:59:56.139000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 4; args=(4,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'n9yh8y8emptzubfr7uj0kl5oo1l7fivy'; args=('n9yh8y8emptzubfr7uj0kl5oo1l7fivy',)
+(0.051) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('n9yh8y8emptzubfr7uj0kl5oo1l7fivy'); args=(u'n9yh8y8emptzubfr7uj0kl5oo1l7fivy',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '2gbe3rj71o7t8sed8kobdqyejaehd9wh' LIMIT 1; args=(u'2gbe3rj71o7t8sed8kobdqyejaehd9wh',)
+(0.000) UPDATE `django_session` SET `session_data` = 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', `expire_date` = '2017-05-08 15:01:28.805000' WHERE `django_session`.`session_key` = '2gbe3rj71o7t8sed8kobdqyejaehd9wh'; args=(u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:01:28.805000', u'2gbe3rj71o7t8sed8kobdqyejaehd9wh')
+(0.050) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('2gbe3rj71o7t8sed8kobdqyejaehd9wh', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:01:28.805000'); args=(u'2gbe3rj71o7t8sed8kobdqyejaehd9wh', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:01:28.805000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '2gbe3rj71o7t8sed8kobdqyejaehd9wh' AND `django_session`.`expire_date` > '2017-04-24 15:01:30.375000'); args=('2gbe3rj71o7t8sed8kobdqyejaehd9wh', u'2017-04-24 15:01:30.375000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '2gbe3rj71o7t8sed8kobdqyejaehd9wh' AND `django_session`.`expire_date` > '2017-04-24 15:01:31.940000'); args=('2gbe3rj71o7t8sed8kobdqyejaehd9wh', u'2017-04-24 15:01:31.940000')
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8' LIMIT 1; args=(u'7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8',)
+(0.014) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:01:31.946000'); args=(u'7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:01:31.946000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '2gbe3rj71o7t8sed8kobdqyejaehd9wh'; args=('2gbe3rj71o7t8sed8kobdqyejaehd9wh',)
+(0.029) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('2gbe3rj71o7t8sed8kobdqyejaehd9wh'); args=(u'2gbe3rj71o7t8sed8kobdqyejaehd9wh',)
+(0.035) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:01:32.074000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:01:32.074000', 3)
+(0.018) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:01:32.141000' WHERE `django_session`.`session_key` = '7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:01:32.141000', u'7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8' AND `django_session`.`expire_date` > '2017-04-24 15:02:08.306000'); args=('7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8', u'2017-04-24 15:02:08.306000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8'; args=('7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8',)
+(0.061) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8'); args=(u'7vmnhp6nmh8bjo2vuvzdp3hgrhid4qp8',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '4wv0jwkrymdtcytfbwbvwgypa4vj51q1' LIMIT 1; args=(u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1',)
+(0.040) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('4wv0jwkrymdtcytfbwbvwgypa4vj51q1', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:02:11.479000'); args=(u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:02:11.479000')
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '4wv0jwkrymdtcytfbwbvwgypa4vj51q1'; args=(u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1',)
+(0.020) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('4wv0jwkrymdtcytfbwbvwgypa4vj51q1'); args=(u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1',)
+(0.001) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:02:11.661000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:02:11.661000', 3)
+(0.004) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:02:11.695000' WHERE `django_session`.`session_key` = '4wv0jwkrymdtcytfbwbvwgypa4vj51q1'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:02:11.695000', u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1')
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('4wv0jwkrymdtcytfbwbvwgypa4vj51q1', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:02:11.695000'); args=(u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:02:11.695000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '4wv0jwkrymdtcytfbwbvwgypa4vj51q1' AND `django_session`.`expire_date` > '2017-04-24 15:02:13.953000'); args=('4wv0jwkrymdtcytfbwbvwgypa4vj51q1', u'2017-04-24 15:02:13.953000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '4wv0jwkrymdtcytfbwbvwgypa4vj51q1'; args=('4wv0jwkrymdtcytfbwbvwgypa4vj51q1',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('4wv0jwkrymdtcytfbwbvwgypa4vj51q1'); args=(u'4wv0jwkrymdtcytfbwbvwgypa4vj51q1',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.006) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin11'; args=(u'admin11',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin11'; args=(u'admin11',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin11'; args=(u'admin11',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.006) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '4qug5zoiloys1zr4t2iqhv7tyw5aowpf' LIMIT 1; args=(u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf',)
+(0.037) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('4qug5zoiloys1zr4t2iqhv7tyw5aowpf', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:11:54.800000'); args=(u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:11:54.800000')
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '4qug5zoiloys1zr4t2iqhv7tyw5aowpf'; args=(u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('4qug5zoiloys1zr4t2iqhv7tyw5aowpf'); args=(u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf',)
+(0.024) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:11:54.950000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:11:54.950000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:11:55.006000' WHERE `django_session`.`session_key` = '4qug5zoiloys1zr4t2iqhv7tyw5aowpf'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:11:55.006000', u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf')
+(0.013) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('4qug5zoiloys1zr4t2iqhv7tyw5aowpf', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:11:55.006000'); args=(u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:11:55.006000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.006) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '4qug5zoiloys1zr4t2iqhv7tyw5aowpf' AND `django_session`.`expire_date` > '2017-04-24 15:13:01.767000'); args=('4qug5zoiloys1zr4t2iqhv7tyw5aowpf', u'2017-04-24 15:13:01.767000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '4qug5zoiloys1zr4t2iqhv7tyw5aowpf'; args=('4qug5zoiloys1zr4t2iqhv7tyw5aowpf',)
+(0.040) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('4qug5zoiloys1zr4t2iqhv7tyw5aowpf'); args=(u'4qug5zoiloys1zr4t2iqhv7tyw5aowpf',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.004) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '0xgpdsh0vtcherc6gjhemj9ngynkhsev' LIMIT 1; args=(u'0xgpdsh0vtcherc6gjhemj9ngynkhsev',)
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('0xgpdsh0vtcherc6gjhemj9ngynkhsev', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:13:04.622000'); args=(u'0xgpdsh0vtcherc6gjhemj9ngynkhsev', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:13:04.622000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '0xgpdsh0vtcherc6gjhemj9ngynkhsev'; args=(u'0xgpdsh0vtcherc6gjhemj9ngynkhsev',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('0xgpdsh0vtcherc6gjhemj9ngynkhsev'); args=(u'0xgpdsh0vtcherc6gjhemj9ngynkhsev',)
+(0.055) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:13:04.688000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:13:04.688000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:13:04.791000' WHERE `django_session`.`session_key` = '0xgpdsh0vtcherc6gjhemj9ngynkhsev'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:13:04.791000', u'0xgpdsh0vtcherc6gjhemj9ngynkhsev')
+(0.012) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('0xgpdsh0vtcherc6gjhemj9ngynkhsev', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:13:04.791000'); args=(u'0xgpdsh0vtcherc6gjhemj9ngynkhsev', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:13:04.791000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 5; args=(5,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 1; args=(1,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Lyrics', u'Hindi')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'Hindi'); args=(u'Lyrics', u'Hindi')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'English') LIMIT 21; args=(u'Video', u'English')
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'English'); args=(u'Video', u'English')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'English' LIMIT 21; args=(u'English',)
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'English'; args=(u'English',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0xgpdsh0vtcherc6gjhemj9ngynkhsev' AND `django_session`.`expire_date` > '2017-04-24 15:13:30.835000'); args=('0xgpdsh0vtcherc6gjhemj9ngynkhsev', u'2017-04-24 15:13:30.835000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '0xgpdsh0vtcherc6gjhemj9ngynkhsev'; args=('0xgpdsh0vtcherc6gjhemj9ngynkhsev',)
+(0.013) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('0xgpdsh0vtcherc6gjhemj9ngynkhsev'); args=(u'0xgpdsh0vtcherc6gjhemj9ngynkhsev',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SHOW FULL TABLES; args=None
+(0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'ats6pvnalez8viflavhldcne84r5np6q' LIMIT 1; args=(u'ats6pvnalez8viflavhldcne84r5np6q',)
+(0.001) UPDATE `django_session` SET `session_data` = 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', `expire_date` = '2017-05-08 15:16:18.541000' WHERE `django_session`.`session_key` = 'ats6pvnalez8viflavhldcne84r5np6q'; args=(u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:16:18.541000', u'ats6pvnalez8viflavhldcne84r5np6q')
+(0.014) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('ats6pvnalez8viflavhldcne84r5np6q', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:16:18.541000'); args=(u'ats6pvnalez8viflavhldcne84r5np6q', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:16:18.541000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'ats6pvnalez8viflavhldcne84r5np6q' AND `django_session`.`expire_date` > '2017-04-24 15:16:19.752000'); args=('ats6pvnalez8viflavhldcne84r5np6q', u'2017-04-24 15:16:19.752000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'ats6pvnalez8viflavhldcne84r5np6q' AND `django_session`.`expire_date` > '2017-04-24 15:16:21.174000'); args=('ats6pvnalez8viflavhldcne84r5np6q', u'2017-04-24 15:16:21.174000')
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'uhujjzc71hnwq2a5ohrlvpednmj4int3' LIMIT 1; args=(u'uhujjzc71hnwq2a5ohrlvpednmj4int3',)
+(0.038) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('uhujjzc71hnwq2a5ohrlvpednmj4int3', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:16:21.179000'); args=(u'uhujjzc71hnwq2a5ohrlvpednmj4int3', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:16:21.179000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'ats6pvnalez8viflavhldcne84r5np6q'; args=('ats6pvnalez8viflavhldcne84r5np6q',)
+(0.002) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('ats6pvnalez8viflavhldcne84r5np6q'); args=(u'ats6pvnalez8viflavhldcne84r5np6q',)
+(0.001) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:16:21.312000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:16:21.312000', 3)
+(0.014) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:16:21.361000' WHERE `django_session`.`session_key` = 'uhujjzc71hnwq2a5ohrlvpednmj4int3'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:16:21.361000', u'uhujjzc71hnwq2a5ohrlvpednmj4int3')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'uhujjzc71hnwq2a5ohrlvpednmj4int3' AND `django_session`.`expire_date` > '2017-04-24 15:16:27.820000'); args=('uhujjzc71hnwq2a5ohrlvpednmj4int3', u'2017-04-24 15:16:27.820000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'uhujjzc71hnwq2a5ohrlvpednmj4int3' AND `django_session`.`expire_date` > '2017-04-24 15:16:32.040000'); args=('uhujjzc71hnwq2a5ohrlvpednmj4int3', u'2017-04-24 15:16:32.040000')
+(0.004) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'uhujjzc71hnwq2a5ohrlvpednmj4int3'; args=('uhujjzc71hnwq2a5ohrlvpednmj4int3',)
+(0.003) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('uhujjzc71hnwq2a5ohrlvpednmj4int3'); args=(u'uhujjzc71hnwq2a5ohrlvpednmj4int3',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'x7guyil4llspek4lq7vtfepu0wbn6t5v' LIMIT 1; args=(u'x7guyil4llspek4lq7vtfepu0wbn6t5v',)
+(0.034) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('x7guyil4llspek4lq7vtfepu0wbn6t5v', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:16:40.068000'); args=(u'x7guyil4llspek4lq7vtfepu0wbn6t5v', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:16:40.068000')
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'x7guyil4llspek4lq7vtfepu0wbn6t5v'; args=(u'x7guyil4llspek4lq7vtfepu0wbn6t5v',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('x7guyil4llspek4lq7vtfepu0wbn6t5v'); args=(u'x7guyil4llspek4lq7vtfepu0wbn6t5v',)
+(0.000) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:16:40.204000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:16:40.204000', 3)
+(0.000) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:16:40.229000' WHERE `django_session`.`session_key` = 'x7guyil4llspek4lq7vtfepu0wbn6t5v'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:16:40.229000', u'x7guyil4llspek4lq7vtfepu0wbn6t5v')
+(0.030) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('x7guyil4llspek4lq7vtfepu0wbn6t5v', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:16:40.229000'); args=(u'x7guyil4llspek4lq7vtfepu0wbn6t5v', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:16:40.229000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'x7guyil4llspek4lq7vtfepu0wbn6t5v' AND `django_session`.`expire_date` > '2017-04-24 15:16:41.733000'); args=('x7guyil4llspek4lq7vtfepu0wbn6t5v', u'2017-04-24 15:16:41.733000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'x7guyil4llspek4lq7vtfepu0wbn6t5v'; args=('x7guyil4llspek4lq7vtfepu0wbn6t5v',)
+(0.015) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('x7guyil4llspek4lq7vtfepu0wbn6t5v'); args=(u'x7guyil4llspek4lq7vtfepu0wbn6t5v',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8' LIMIT 1; args=(u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8',)
+(0.030) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:17:13.209000'); args=(u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:17:13.209000')
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8'; args=(u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8'); args=(u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8',)
+(0.076) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:17:13.348000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:17:13.348000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:17:13.465000' WHERE `django_session`.`session_key` = 'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:17:13.465000', u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8')
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:17:13.465000'); args=(u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:17:13.465000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8' AND `django_session`.`expire_date` > '2017-04-24 15:17:13.823000'); args=('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8', u'2017-04-24 15:17:13.823000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.009) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8' AND `django_session`.`expire_date` > '2017-04-24 15:17:16.709000'); args=('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8', u'2017-04-24 15:17:16.709000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8'; args=('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8',)
+(0.010) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('on1t6ao4xrp1pzgeuqk3nwvj546n2vm8'); args=(u'on1t6ao4xrp1pzgeuqk3nwvj546n2vm8',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff' LIMIT 1; args=(u'eg9lwe3t6hf94zxmkb7enrtx729sauff',)
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('eg9lwe3t6hf94zxmkb7enrtx729sauff', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:17:23.777000'); args=(u'eg9lwe3t6hf94zxmkb7enrtx729sauff', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:17:23.777000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff'; args=(u'eg9lwe3t6hf94zxmkb7enrtx729sauff',)
+(0.012) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('eg9lwe3t6hf94zxmkb7enrtx729sauff'); args=(u'eg9lwe3t6hf94zxmkb7enrtx729sauff',)
+(0.000) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:17:23.857000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:17:23.857000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:17:23.892000' WHERE `django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:17:23.892000', u'eg9lwe3t6hf94zxmkb7enrtx729sauff')
+(0.015) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('eg9lwe3t6hf94zxmkb7enrtx729sauff', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:17:23.892000'); args=(u'eg9lwe3t6hf94zxmkb7enrtx729sauff', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:17:23.892000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff' AND `django_session`.`expire_date` > '2017-04-24 15:17:24.268000'); args=('eg9lwe3t6hf94zxmkb7enrtx729sauff', u'2017-04-24 15:17:24.268000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.006) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff' AND `django_session`.`expire_date` > '2017-04-24 15:17:25.793000'); args=('eg9lwe3t6hf94zxmkb7enrtx729sauff', u'2017-04-24 15:17:25.793000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.027) SELECT COUNT('*') AS `__count` FROM `details_details`; args=('*',)
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` ORDER BY `details_details`.`id` DESC; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff' AND `django_session`.`expire_date` > '2017-04-24 15:17:26.716000'); args=('eg9lwe3t6hf94zxmkb7enrtx729sauff', u'2017-04-24 15:17:26.716000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff' AND `django_session`.`expire_date` > '2017-04-24 15:17:34.894000'); args=('eg9lwe3t6hf94zxmkb7enrtx729sauff', u'2017-04-24 15:17:34.894000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff' AND `django_session`.`expire_date` > '2017-04-24 15:17:37.011000'); args=('eg9lwe3t6hf94zxmkb7enrtx729sauff', u'2017-04-24 15:17:37.011000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'eg9lwe3t6hf94zxmkb7enrtx729sauff'; args=('eg9lwe3t6hf94zxmkb7enrtx729sauff',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('eg9lwe3t6hf94zxmkb7enrtx729sauff'); args=(u'eg9lwe3t6hf94zxmkb7enrtx729sauff',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'bzygyh34wemt6g79t1g89ph4b2996342' LIMIT 1; args=(u'bzygyh34wemt6g79t1g89ph4b2996342',)
+(0.000) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('bzygyh34wemt6g79t1g89ph4b2996342', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:18:54.207000'); args=(u'bzygyh34wemt6g79t1g89ph4b2996342', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:18:54.207000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'bzygyh34wemt6g79t1g89ph4b2996342'; args=(u'bzygyh34wemt6g79t1g89ph4b2996342',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('bzygyh34wemt6g79t1g89ph4b2996342'); args=(u'bzygyh34wemt6g79t1g89ph4b2996342',)
+(0.001) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:18:54.409000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:18:54.409000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:18:54.498000' WHERE `django_session`.`session_key` = 'bzygyh34wemt6g79t1g89ph4b2996342'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:18:54.498000', u'bzygyh34wemt6g79t1g89ph4b2996342')
+(0.018) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('bzygyh34wemt6g79t1g89ph4b2996342', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:18:54.498000'); args=(u'bzygyh34wemt6g79t1g89ph4b2996342', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:18:54.498000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Video', u'Hindi')
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi'); args=(u'Video', u'Hindi')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'bzygyh34wemt6g79t1g89ph4b2996342' AND `django_session`.`expire_date` > '2017-04-24 15:19:00.049000'); args=('bzygyh34wemt6g79t1g89ph4b2996342', u'2017-04-24 15:19:00.049000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'bzygyh34wemt6g79t1g89ph4b2996342'; args=('bzygyh34wemt6g79t1g89ph4b2996342',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('bzygyh34wemt6g79t1g89ph4b2996342'); args=(u'bzygyh34wemt6g79t1g89ph4b2996342',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'epin1qx88k6gygscs69tqkxyoii9lyq5' LIMIT 1; args=(u'epin1qx88k6gygscs69tqkxyoii9lyq5',)
+(0.016) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('epin1qx88k6gygscs69tqkxyoii9lyq5', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:20:47.278000'); args=(u'epin1qx88k6gygscs69tqkxyoii9lyq5', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:20:47.278000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'epin1qx88k6gygscs69tqkxyoii9lyq5'; args=(u'epin1qx88k6gygscs69tqkxyoii9lyq5',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('epin1qx88k6gygscs69tqkxyoii9lyq5'); args=(u'epin1qx88k6gygscs69tqkxyoii9lyq5',)
+(0.056) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:20:47.364000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:20:47.364000', 3)
+(0.012) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:20:47.455000' WHERE `django_session`.`session_key` = 'epin1qx88k6gygscs69tqkxyoii9lyq5'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:20:47.455000', u'epin1qx88k6gygscs69tqkxyoii9lyq5')
+(0.000) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('epin1qx88k6gygscs69tqkxyoii9lyq5', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:20:47.455000'); args=(u'epin1qx88k6gygscs69tqkxyoii9lyq5', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:20:47.455000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'epin1qx88k6gygscs69tqkxyoii9lyq5' AND `django_session`.`expire_date` > '2017-04-24 15:20:48.570000'); args=('epin1qx88k6gygscs69tqkxyoii9lyq5', u'2017-04-24 15:20:48.570000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'epin1qx88k6gygscs69tqkxyoii9lyq5'; args=('epin1qx88k6gygscs69tqkxyoii9lyq5',)
+(0.024) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('epin1qx88k6gygscs69tqkxyoii9lyq5'); args=(u'epin1qx88k6gygscs69tqkxyoii9lyq5',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'wroolf00cvcl38vqfsue0lecc8leu6lq' LIMIT 1; args=(u'wroolf00cvcl38vqfsue0lecc8leu6lq',)
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('wroolf00cvcl38vqfsue0lecc8leu6lq', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:20:57.120000'); args=(u'wroolf00cvcl38vqfsue0lecc8leu6lq', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:20:57.120000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'wroolf00cvcl38vqfsue0lecc8leu6lq'; args=(u'wroolf00cvcl38vqfsue0lecc8leu6lq',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('wroolf00cvcl38vqfsue0lecc8leu6lq'); args=(u'wroolf00cvcl38vqfsue0lecc8leu6lq',)
+(0.001) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:20:57.190000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:20:57.190000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:20:57.224000' WHERE `django_session`.`session_key` = 'wroolf00cvcl38vqfsue0lecc8leu6lq'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:20:57.224000', u'wroolf00cvcl38vqfsue0lecc8leu6lq')
+(0.012) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('wroolf00cvcl38vqfsue0lecc8leu6lq', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:20:57.224000'); args=(u'wroolf00cvcl38vqfsue0lecc8leu6lq', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:20:57.224000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 5; args=(5,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'English' LIMIT 21; args=(u'English',)
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'English'; args=(u'English',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'wroolf00cvcl38vqfsue0lecc8leu6lq' AND `django_session`.`expire_date` > '2017-04-24 15:21:04.869000'); args=('wroolf00cvcl38vqfsue0lecc8leu6lq', u'2017-04-24 15:21:04.869000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'wroolf00cvcl38vqfsue0lecc8leu6lq'; args=('wroolf00cvcl38vqfsue0lecc8leu6lq',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('wroolf00cvcl38vqfsue0lecc8leu6lq'); args=(u'wroolf00cvcl38vqfsue0lecc8leu6lq',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.005) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' LIMIT 1; args=(u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo',)
+(0.018) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:26:55.087000'); args=(u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:26:55.087000')
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo'; args=(u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('0rkjiu4ofjuzjjsdhvewif54cldlc9mo'); args=(u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo',)
+(0.000) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:26:55.239000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:26:55.239000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:26:55.266000' WHERE `django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:26:55.266000', u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo')
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:26:55.266000'); args=(u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:26:55.266000')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:26:55.314000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:26:55.314000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.012) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:26:59.172000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:26:59.172000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.080) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group`; args=()
+(0.021) SELECT COUNT('*') FROM (SELECT DISTINCT `auth_user`.`id` AS Col1, `auth_user`.`password` AS Col2, `auth_user`.`last_login` AS Col3, `auth_user`.`is_superuser` AS Col4, `auth_user`.`username` AS Col5, `auth_user`.`first_name` AS Col6, `auth_user`.`last_name` AS Col7, `auth_user`.`email` AS Col8, `auth_user`.`is_staff` AS Col9, `auth_user`.`is_active` AS Col10, `auth_user`.`date_joined` AS Col11 FROM `auth_user`) subquery; args=('*',)
+(0.001) SELECT DISTINCT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` ORDER BY `auth_user`.`username` ASC, `auth_user`.`id` DESC; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:26:59.603000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:26:59.603000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:02.497000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:02.497000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SAVEPOINT `s7220_x1`; args=None
+(0.022) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'user' AND `django_content_type`.`app_label` = 'auth'); args=('user', 'auth')
+(0.001) RELEASE SAVEPOINT `s7220_x1`; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:02.752000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:02.752000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:15.708000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:15.708000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SAVEPOINT `s9456_x1`; args=None
+(0.001) SELECT (1) AS `a` FROM `auth_user` WHERE `auth_user`.`username` = 'shashankgaurav17' LIMIT 1; args=(u'shashankgaurav17',)
+(0.000) INSERT INTO `auth_user` (`password`, `last_login`, `is_superuser`, `username`, `first_name`, `last_name`, `email`, `is_staff`, `is_active`, `date_joined`) VALUES ('pbkdf2_sha256$20000$sPp1bKom3sex$6uP4jAZ3Ylmb86yscEhK8Aj1Hii/rw3rOC4sDQf2UK8=', NULL, 0, 'shashankgaurav17', '', '', '', 0, 1, '2017-04-24 15:27:15.733000'); args=[u'pbkdf2_sha256$20000$sPp1bKom3sex$6uP4jAZ3Ylmb86yscEhK8Aj1Hii/rw3rOC4sDQf2UK8=', None, False, u'shashankgaurav17', u'', u'', u'', False, True, u'2017-04-24 15:27:15.733000']
+(0.010) INSERT INTO `django_admin_log` (`action_time`, `user_id`, `content_type_id`, `object_id`, `object_repr`, `action_flag`, `change_message`) VALUES ('2017-04-24 15:27:15.779000', 3, 4, '5', 'shashankgaurav17', 1, ''); args=[u'2017-04-24 15:27:15.779000', 3, 4, u'5', u'shashankgaurav17', 1, u'']
+(0.000) RELEASE SAVEPOINT `s9456_x1`; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:15.957000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:15.957000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 5; args=(5,)
+(0.014) SELECT `auth_group`.`id` FROM `auth_group` INNER JOIN `auth_user_groups` ON ( `auth_group`.`id` = `auth_user_groups`.`group_id` ) WHERE `auth_user_groups`.`user_id` = 5; args=(5,)
+(0.053) SELECT `auth_permission`.`id` FROM `auth_permission` INNER JOIN `auth_user_user_permissions` ON ( `auth_permission`.`id` = `auth_user_user_permissions`.`permission_id` ) INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_user_user_permissions`.`user_id` = 5 ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(5,)
+(0.001) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group` ORDER BY `auth_group`.`name` ASC; args=()
+(0.011) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:16.246000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:16.246000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:40.772000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:40.772000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 5; args=(5,)
+(0.012) SELECT `auth_group`.`id` FROM `auth_group` INNER JOIN `auth_user_groups` ON ( `auth_group`.`id` = `auth_user_groups`.`group_id` ) WHERE `auth_user_groups`.`user_id` = 5; args=(5,)
+(0.012) SELECT `auth_permission`.`id` FROM `auth_permission` INNER JOIN `auth_user_user_permissions` ON ( `auth_permission`.`id` = `auth_user_user_permissions`.`permission_id` ) INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_user_user_permissions`.`user_id` = 5 ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(5,)
+(0.001) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`id` IN (1) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(1,)
+(0.001) SELECT (1) AS `a` FROM `auth_user` WHERE (`auth_user`.`username` = 'shashankgaurav17' AND NOT (`auth_user`.`id` = 5)) LIMIT 1; args=(u'shashankgaurav17', 5)
+(0.001) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group` ORDER BY `auth_group`.`name` ASC; args=()
+(0.002) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:41.084000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:41.084000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:54.539000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:54.539000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 5; args=(5,)
+(0.007) SELECT `auth_group`.`id` FROM `auth_group` INNER JOIN `auth_user_groups` ON ( `auth_group`.`id` = `auth_user_groups`.`group_id` ) WHERE `auth_user_groups`.`user_id` = 5; args=(5,)
+(0.009) SELECT `auth_permission`.`id` FROM `auth_permission` INNER JOIN `auth_user_user_permissions` ON ( `auth_permission`.`id` = `auth_user_user_permissions`.`permission_id` ) INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_user_user_permissions`.`user_id` = 5 ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(5,)
+(0.001) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`id` IN (1) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(1,)
+(0.001) SELECT (1) AS `a` FROM `auth_user` WHERE (`auth_user`.`username` = 'shashankgaurav17' AND NOT (`auth_user`.`id` = 5)) LIMIT 1; args=(u'shashankgaurav17', 5)
+(0.001) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group` ORDER BY `auth_group`.`name` ASC; args=()
+(0.001) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:27:54.775000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:27:54.775000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:19.260000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:19.260000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 5; args=(5,)
+(0.012) SELECT `auth_group`.`id` FROM `auth_group` INNER JOIN `auth_user_groups` ON ( `auth_group`.`id` = `auth_user_groups`.`group_id` ) WHERE `auth_user_groups`.`user_id` = 5; args=(5,)
+(0.016) SELECT `auth_permission`.`id` FROM `auth_permission` INNER JOIN `auth_user_user_permissions` ON ( `auth_permission`.`id` = `auth_user_user_permissions`.`permission_id` ) INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_user_user_permissions`.`user_id` = 5 ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(5,)
+(0.001) SELECT `auth_permission`.`id`, `auth_permission`.`name`, `auth_permission`.`content_type_id`, `auth_permission`.`codename`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`id` IN (1) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(1,)
+(0.000) SELECT (1) AS `a` FROM `auth_user` WHERE (`auth_user`.`username` = 'shashankgaurav17' AND NOT (`auth_user`.`id` = 5)) LIMIT 1; args=(u'shashankgaurav17', 5)
+(0.001) UPDATE `auth_user` SET `password` = 'pbkdf2_sha256$20000$sPp1bKom3sex$6uP4jAZ3Ylmb86yscEhK8Aj1Hii/rw3rOC4sDQf2UK8=', `last_login` = '2017-04-24 15:27:15', `is_superuser` = 0, `username` = 'shashankgaurav17', `first_name` = 'Shashank', `last_name` = 'Gaurav', `email` = 'shashankgaurav17@gmail.com', `is_staff` = 0, `is_active` = 1, `date_joined` = '2017-04-24 15:27:15' WHERE `auth_user`.`id` = 5; args=(u'pbkdf2_sha256$20000$sPp1bKom3sex$6uP4jAZ3Ylmb86yscEhK8Aj1Hii/rw3rOC4sDQf2UK8=', u'2017-04-24 15:27:15', False, u'shashankgaurav17', u'Shashank', u'Gaurav', u'shashankgaurav17@gmail.com', False, True, u'2017-04-24 15:27:15', 5)
+(0.001) DELETE FROM `auth_user_groups` WHERE `auth_user_groups`.`user_id` = 5; args=(5,)
+(0.000) DELETE FROM `auth_user_user_permissions` WHERE `auth_user_user_permissions`.`user_id` = 5; args=(5,)
+(0.000) SELECT `auth_user_user_permissions`.`permission_id` FROM `auth_user_user_permissions` WHERE (`auth_user_user_permissions`.`permission_id` IN (1) AND `auth_user_user_permissions`.`user_id` = 5); args=(1, 5)
+(0.025) INSERT INTO `auth_user_user_permissions` (`user_id`, `permission_id`) VALUES (5, 1); args=(5, 1)
+(0.005) INSERT INTO `django_admin_log` (`action_time`, `user_id`, `content_type_id`, `object_id`, `object_repr`, `action_flag`, `change_message`) VALUES ('2017-04-24 15:28:19.400000', 3, 4, '5', 'shashankgaurav17', 2, 'Changed first_name, last_name, email, user_permissions and last_login.'); args=[u'2017-04-24 15:28:19.400000', 3, 4, u'5', u'shashankgaurav17', 2, u'Changed first_name, last_name, email, user_permissions and last_login.']
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:19.500000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:19.500000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.004) SELECT `auth_group`.`id`, `auth_group`.`name` FROM `auth_group`; args=()
+(0.001) SELECT COUNT('*') FROM (SELECT DISTINCT `auth_user`.`id` AS Col1, `auth_user`.`password` AS Col2, `auth_user`.`last_login` AS Col3, `auth_user`.`is_superuser` AS Col4, `auth_user`.`username` AS Col5, `auth_user`.`first_name` AS Col6, `auth_user`.`last_name` AS Col7, `auth_user`.`email` AS Col8, `auth_user`.`is_staff` AS Col9, `auth_user`.`is_active` AS Col10, `auth_user`.`date_joined` AS Col11 FROM `auth_user`) subquery; args=('*',)
+(0.001) SELECT DISTINCT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` ORDER BY `auth_user`.`username` ASC, `auth_user`.`id` DESC; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:19.782000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:19.782000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 58, in open
+    self.connection = connection_class(self.host, self.port, **connection_params)
+  File "C:\Python27\lib\smtplib.py", line 256, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Python27\lib\smtplib.py", line 316, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Python27\lib\smtplib.py", line 291, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "C:\Python27\lib\socket.py", line 575, in create_connection
+    raise err
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 58, in open
+    self.connection = connection_class(self.host, self.port, **connection_params)
+  File "C:\Python27\lib\smtplib.py", line 256, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Python27\lib\smtplib.py", line 316, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Python27\lib\smtplib.py", line 291, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "C:\Python27\lib\socket.py", line 575, in create_connection
+    raise err
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:51.363000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:51.363000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:52.420000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:52.420000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:53.846000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:53.846000')
+(0.001) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:28:53.850000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:28:53.850000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'MzJhNzAzMjdmNWQ4MGY1ODk1ZGRhOTM5NzliN2VkMjFkZWFiOTc3NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2lkIjoiMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=', `expire_date` = '2017-05-08 15:28:53.928000' WHERE `django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo'; args=(u'MzJhNzAzMjdmNWQ4MGY1ODk1ZGRhOTM5NzliN2VkMjFkZWFiOTc3NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2lkIjoiMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=', u'2017-05-08 15:28:53.928000', '0rkjiu4ofjuzjjsdhvewif54cldlc9mo')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Video', u'Hindi')
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi'); args=(u'Video', u'Hindi')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo' AND `django_session`.`expire_date` > '2017-04-24 15:28:57.307000'); args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo', u'2017-04-24 15:28:57.307000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '0rkjiu4ofjuzjjsdhvewif54cldlc9mo'; args=('0rkjiu4ofjuzjjsdhvewif54cldlc9mo',)
+(0.000) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('0rkjiu4ofjuzjjsdhvewif54cldlc9mo'); args=(u'0rkjiu4ofjuzjjsdhvewif54cldlc9mo',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'samyysays@test.com' AND `auth_user`.`is_active` = 1); args=(u'samyysays@test.com', True)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 58, in open
+    self.connection = connection_class(self.host, self.port, **connection_params)
+  File "C:\Python27\lib\smtplib.py", line 256, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Python27\lib\smtplib.py", line 316, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Python27\lib\smtplib.py", line 291, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "C:\Python27\lib\socket.py", line 575, in create_connection
+    raise err
+error: [Errno 10061] No connection could be made because the target machine actively refused it
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashank.gaurav@oracle.com' AND `auth_user`.`is_active` = 1); args=(u'shashank.gaurav@oracle.com', True)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f' LIMIT 1; args=(u'1kgnun5gqyla4ii8uvnz51z84e38z51f',)
+(0.040) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('1kgnun5gqyla4ii8uvnz51z84e38z51f', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-08 15:34:00.293000'); args=(u'1kgnun5gqyla4ii8uvnz51z84e38z51f', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-08 15:34:00.293000')
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f'; args=(u'1kgnun5gqyla4ii8uvnz51z84e38z51f',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('1kgnun5gqyla4ii8uvnz51z84e38z51f'); args=(u'1kgnun5gqyla4ii8uvnz51z84e38z51f',)
+(0.033) UPDATE `auth_user` SET `last_login` = '2017-04-24 15:34:00.470000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-24 15:34:00.470000', 3)
+(0.000) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-08 15:34:00.544000' WHERE `django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:34:00.544000', u'1kgnun5gqyla4ii8uvnz51z84e38z51f')
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('1kgnun5gqyla4ii8uvnz51z84e38z51f', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-08 15:34:00.544000'); args=(u'1kgnun5gqyla4ii8uvnz51z84e38z51f', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-08 15:34:00.544000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 67, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Python27\lib\smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, 'Authentication failed: Bad username / password')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 67, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Python27\lib\smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, 'Authentication failed: Bad username / password')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashank.gaurav@oracle.com' AND `auth_user`.`is_active` = 1); args=(u'shashank.gaurav@oracle.com', True)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SHOW FULL TABLES; args=None
+(0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 67, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Python27\lib\smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials v13sm27707358pgo.44 - gsmtp')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 67, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Python27\lib\smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsQ\n5.7.14 gitVDEIx2_2gbm0KdirBj1USvN5KIybKcg1ey3rUj7gqIeD5W2VP8_Siurmo7S0P7H0g07\n5.7.14 hbu3UZVDHrRElp6crnFfmCKlf1SeV2t9IxjIzd6ocKlE76B1yskq3Ui6F6O3RJyoJlsCHL\n5.7.14 JBveSLjblsOiCQr2f2GLgO4v-eVXplGbLt4ZTwo5i7-czIh6HzkRchNjOCM3rdw39UYZj2\n5.7.14 uiIKyMlrG8zApAG9UhXuuDHU5BpI8> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 206sm31583418pfu.132 - gsmtp')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.012) SHOW FULL TABLES; args=None
+(0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE (`auth_user`.`email` LIKE 'shashankgaurav17@gmail.com' AND `auth_user`.`is_active` = 1); args=(u'shashankgaurav17@gmail.com', True)
+Internal Server Error: /password_reset
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python27\lib\site-packages\django\utils\decorators.py", line 110, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\views.py", line 182, in password_reset
+    form.save(**opts)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 256, in save
+    html_email_template_name=html_email_template_name)
+  File "C:\Python27\lib\site-packages\django\contrib\auth\forms.py", line 213, in send_mail
+    email_message.send()
+  File "C:\Python27\lib\site-packages\django\core\mail\message.py", line 303, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 100, in send_messages
+    new_conn_created = self.open()
+  File "C:\Python27\lib\site-packages\django\core\mail\backends\smtp.py", line 67, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Python27\lib\smtplib.py", line 622, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbtG\n5.7.14 VSWU0Nf7_iv-HjkIIWzT_aWflhlHsoI9RY2oBpoWbrm80EEc_y5zUaiw9f_av__XLhESx6\n5.7.14 _vIHOpQ_IHOJ9lDCqmhFua-7nG9QS4X2CRw_z0keECMlmYqhy96oYlzOqoWSkSCQv75F_y\n5.7.14 UoxkaiuQKdp4JfeDu9zsezy0gZKuLADHvFoYIqMgBhA524jCSKW4TNOdbjnhVQJy1UQ8wL\n5.7.14 LtJsmT7aW0FtQ_70xBdS149JnvBdk> Please log in via your web browser and\n5.7.14 then try again.\n5.7.14  Learn more at\n5.7.14  https://support.google.com/mail/answer/78754 29sm31716203pfo.9 - gsmtp')
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.013) SHOW FULL TABLES; args=None
+(0.001) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.152) SHOW FULL TABLES; args=None
+(0.050) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.017) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f' AND `django_session`.`expire_date` > '2017-04-25 02:55:32.748000'); args=('1kgnun5gqyla4ii8uvnz51z84e38z51f', u'2017-04-25 02:55:32.748000')
+(0.007) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f' AND `django_session`.`expire_date` > '2017-04-25 02:55:36.081000'); args=('1kgnun5gqyla4ii8uvnz51z84e38z51f', u'2017-04-25 02:55:36.081000')
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.013) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f' AND `django_session`.`expire_date` > '2017-04-25 02:57:01.121000'); args=('1kgnun5gqyla4ii8uvnz51z84e38z51f', u'2017-04-25 02:57:01.121000')
+(0.013) UPDATE `auth_user` SET `last_login` = '2017-04-25 02:57:01.129000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-25 02:57:01.129000', 3)
+(0.003) UPDATE `django_session` SET `session_data` = 'MzJhNzAzMjdmNWQ4MGY1ODk1ZGRhOTM5NzliN2VkMjFkZWFiOTc3NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2lkIjoiMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=', `expire_date` = '2017-05-09 02:57:01.184000' WHERE `django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f'; args=(u'MzJhNzAzMjdmNWQ4MGY1ODk1ZGRhOTM5NzliN2VkMjFkZWFiOTc3NDp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2lkIjoiMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=', u'2017-05-09 02:57:01.184000', '1kgnun5gqyla4ii8uvnz51z84e38z51f')
+(0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.102) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Video', u'Hindi')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi'); args=(u'Video', u'Hindi')
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'English') LIMIT 21; args=(u'Lyrics', u'English')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'English'); args=(u'Lyrics', u'English')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'English') LIMIT 21; args=(u'Video', u'English')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'English'); args=(u'Video', u'English')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Lyrics', u'Hindi')
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'Hindi'); args=(u'Lyrics', u'Hindi')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f' AND `django_session`.`expire_date` > '2017-04-25 02:57:26.874000'); args=('1kgnun5gqyla4ii8uvnz51z84e38z51f', u'2017-04-25 02:57:26.874000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '1kgnun5gqyla4ii8uvnz51z84e38z51f'; args=('1kgnun5gqyla4ii8uvnz51z84e38z51f',)
+(0.035) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('1kgnun5gqyla4ii8uvnz51z84e38z51f'); args=(u'1kgnun5gqyla4ii8uvnz51z84e38z51f',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.031) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.088) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.084) SHOW FULL TABLES; args=None
+(0.024) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.003) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'siutmbmv1fgguha3p215gwli6fi8y04n' LIMIT 1; args=(u'siutmbmv1fgguha3p215gwli6fi8y04n',)
+(0.019) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('siutmbmv1fgguha3p215gwli6fi8y04n', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-09 07:19:30.259000'); args=(u'siutmbmv1fgguha3p215gwli6fi8y04n', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-09 07:19:30.259000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'siutmbmv1fgguha3p215gwli6fi8y04n'; args=(u'siutmbmv1fgguha3p215gwli6fi8y04n',)
+(0.023) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('siutmbmv1fgguha3p215gwli6fi8y04n'); args=(u'siutmbmv1fgguha3p215gwli6fi8y04n',)
+(0.073) UPDATE `auth_user` SET `last_login` = '2017-04-25 07:19:30.397000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-25 07:19:30.397000', 3)
+(0.001) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-09 07:19:30.505000' WHERE `django_session`.`session_key` = 'siutmbmv1fgguha3p215gwli6fi8y04n'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 07:19:30.505000', u'siutmbmv1fgguha3p215gwli6fi8y04n')
+(0.001) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('siutmbmv1fgguha3p215gwli6fi8y04n', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-09 07:19:30.505000'); args=(u'siutmbmv1fgguha3p215gwli6fi8y04n', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 07:19:30.505000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Video', u'Hindi')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'Hindi'); args=(u'Video', u'Hindi')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'siutmbmv1fgguha3p215gwli6fi8y04n' AND `django_session`.`expire_date` > '2017-04-25 07:19:34.278000'); args=('siutmbmv1fgguha3p215gwli6fi8y04n', u'2017-04-25 07:19:34.278000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'siutmbmv1fgguha3p215gwli6fi8y04n'; args=('siutmbmv1fgguha3p215gwli6fi8y04n',)
+(0.052) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('siutmbmv1fgguha3p215gwli6fi8y04n'); args=(u'siutmbmv1fgguha3p215gwli6fi8y04n',)
