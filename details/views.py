@@ -4,6 +4,9 @@ from django.http import HttpResponse
 from details.models import Details as Details
 from details.models import Login
 import logging
+from .forms import PostForm
+from django.shortcuts import redirect
+from django.shortcuts import get_list_or_404, get_object_or_404
 #from login.models import Login
 
 # Create your views here.
@@ -28,6 +31,42 @@ class DetailsId(ListView):
 #def detailsId(request, album_id):
 #    return HttpResponse("<h2>Details for Album id : " + str(album_id) + "</h2>")
     #return render(request,album_id,'details/detailsID.html')
+
+def add(request):
+    if request.method == "POST":
+        form = PostForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.song_name = request.POST.get('song_name')
+            post.language = request.POST.get('language')
+            post.cappo = request.POST.get('cappo')
+            post.type = request.POST.get('type')
+            post.url = request.POST.get('url')
+            post.lyrics = request.POST.get('lyrics')
+            post.save()
+            return redirect('browse')
+    else:
+        form = PostForm()
+    return render(request, 'details/add.html', {'form': form})
+    
+
+def add_edit(request, pk):
+    post = get_object_or_404(Details, pk=pk)
+    if request.method == "POST":
+        form = PostForm(request.POST, instance=post)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.song_name = request.POST.get('song_name')
+            post.language = request.POST.get('language')
+            post.cappo = request.POST.get('cappo')
+            post.type = request.POST.get('type')
+            post.url = request.POST.get('url')
+            post.lyrics = request.POST.get('lyrics')
+            post.save()
+            return redirect('browse')
+    else:
+        form = PostForm(instance=post)
+    return render(request, 'details/add.html', {'form': form})
 
 
 def browse(request):

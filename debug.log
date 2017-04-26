@@ -3375,3 +3375,827 @@ SMTPAuthenticationError: (534, '5.7.14 <https://accounts.google.com/signin/conti
 (0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
 (0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'siutmbmv1fgguha3p215gwli6fi8y04n'; args=('siutmbmv1fgguha3p215gwli6fi8y04n',)
 (0.052) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('siutmbmv1fgguha3p215gwli6fi8y04n'); args=(u'siutmbmv1fgguha3p215gwli6fi8y04n',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.004) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'wzfh09jl28fj1r9ikawzqqphiznndd4q' LIMIT 1; args=(u'wzfh09jl28fj1r9ikawzqqphiznndd4q',)
+(0.039) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('wzfh09jl28fj1r9ikawzqqphiznndd4q', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-09 07:49:44.440000'); args=(u'wzfh09jl28fj1r9ikawzqqphiznndd4q', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-09 07:49:44.440000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'wzfh09jl28fj1r9ikawzqqphiznndd4q'; args=(u'wzfh09jl28fj1r9ikawzqqphiznndd4q',)
+(0.001) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('wzfh09jl28fj1r9ikawzqqphiznndd4q'); args=(u'wzfh09jl28fj1r9ikawzqqphiznndd4q',)
+(0.099) UPDATE `auth_user` SET `last_login` = '2017-04-25 07:49:44.651000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-25 07:49:44.651000', 3)
+(0.000) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-09 07:49:44.963000' WHERE `django_session`.`session_key` = 'wzfh09jl28fj1r9ikawzqqphiznndd4q'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 07:49:44.963000', u'wzfh09jl28fj1r9ikawzqqphiznndd4q')
+(0.025) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('wzfh09jl28fj1r9ikawzqqphiznndd4q', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-09 07:49:44.963000'); args=(u'wzfh09jl28fj1r9ikawzqqphiznndd4q', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 07:49:44.963000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'Hindi' LIMIT 21; args=(u'Hindi',)
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'Hindi'; args=(u'Hindi',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'English') LIMIT 21; args=(u'Lyrics', u'English')
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'English'); args=(u'Lyrics', u'English')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'English') LIMIT 21; args=(u'Video', u'English')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Video' AND `details_details`.`language` = 'English'); args=(u'Video', u'English')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'English' LIMIT 21; args=(u'English',)
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`language` = 'English'; args=(u'English',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'Hindi') LIMIT 21; args=(u'Lyrics', u'Hindi')
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE (`details_details`.`type` = 'Lyrics' AND `details_details`.`language` = 'Hindi'); args=(u'Lyrics', u'Hindi')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'wzfh09jl28fj1r9ikawzqqphiznndd4q' AND `django_session`.`expire_date` > '2017-04-25 07:49:52.249000'); args=('wzfh09jl28fj1r9ikawzqqphiznndd4q', u'2017-04-25 07:49:52.249000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'wzfh09jl28fj1r9ikawzqqphiznndd4q'; args=('wzfh09jl28fj1r9ikawzqqphiznndd4q',)
+(0.034) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('wzfh09jl28fj1r9ikawzqqphiznndd4q'); args=(u'wzfh09jl28fj1r9ikawzqqphiznndd4q',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.007) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' LIMIT 1; args=(u'o7113pfr61861fvfg033pmupfjc05de7',)
+(0.018) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('o7113pfr61861fvfg033pmupfjc05de7', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-09 10:16:20.036000'); args=(u'o7113pfr61861fvfg033pmupfjc05de7', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-09 10:16:20.036000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7'; args=(u'o7113pfr61861fvfg033pmupfjc05de7',)
+(0.013) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('o7113pfr61861fvfg033pmupfjc05de7'); args=(u'o7113pfr61861fvfg033pmupfjc05de7',)
+(0.031) UPDATE `auth_user` SET `last_login` = '2017-04-25 10:16:20.221000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-25 10:16:20.221000', 3)
+(0.000) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-09 10:16:20.288000' WHERE `django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 10:16:20.288000', u'o7113pfr61861fvfg033pmupfjc05de7')
+(0.000) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('o7113pfr61861fvfg033pmupfjc05de7', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-09 10:16:20.288000'); args=(u'o7113pfr61861fvfg033pmupfjc05de7', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 10:16:20.288000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' AND `django_session`.`expire_date` > '2017-04-25 10:16:20.343000'); args=('o7113pfr61861fvfg033pmupfjc05de7', u'2017-04-25 10:16:20.343000')
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.077) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' AND `django_session`.`expire_date` > '2017-04-25 10:16:24.119000'); args=('o7113pfr61861fvfg033pmupfjc05de7', u'2017-04-25 10:16:24.119000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.042) SELECT COUNT('*') AS `__count` FROM `details_details`; args=('*',)
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` ORDER BY `details_details`.`id` DESC; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' AND `django_session`.`expire_date` > '2017-04-25 10:16:24.923000'); args=('o7113pfr61861fvfg033pmupfjc05de7', u'2017-04-25 10:16:24.923000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Forbidden (CSRF token missing or incorrect.): /add/
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' AND `django_session`.`expire_date` > '2017-04-25 10:32:34.936000'); args=('o7113pfr61861fvfg033pmupfjc05de7', u'2017-04-25 10:32:34.936000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.006) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' AND `django_session`.`expire_date` > '2017-04-25 10:32:35.070000'); args=('o7113pfr61861fvfg033pmupfjc05de7', u'2017-04-25 10:32:35.070000')
+(0.004) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7' AND `django_session`.`expire_date` > '2017-04-25 10:32:37.719000'); args=('o7113pfr61861fvfg033pmupfjc05de7', u'2017-04-25 10:32:37.719000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = 'o7113pfr61861fvfg033pmupfjc05de7'; args=('o7113pfr61861fvfg033pmupfjc05de7',)
+(0.020) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('o7113pfr61861fvfg033pmupfjc05de7'); args=(u'o7113pfr61861fvfg033pmupfjc05de7',)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`username` = 'admin1'; args=(u'admin1',)
+(0.001) SELECT (1) AS `a` FROM `django_session` WHERE `django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' LIMIT 1; args=(u'602b53wxy5guqie0y3dlw8arzmm1u84n',)
+(0.020) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('602b53wxy5guqie0y3dlw8arzmm1u84n', 'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', '2017-05-09 10:33:04.204000'); args=(u'602b53wxy5guqie0y3dlw8arzmm1u84n', u'NWFjYWQyZjk3NWM2ZDU2NTY2YmM1M2U2ODJiYTlmYTEzMTdiMDM4Mzp7fQ==', u'2017-05-09 10:33:04.204000')
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n'; args=(u'602b53wxy5guqie0y3dlw8arzmm1u84n',)
+(0.009) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('602b53wxy5guqie0y3dlw8arzmm1u84n'); args=(u'602b53wxy5guqie0y3dlw8arzmm1u84n',)
+(0.064) UPDATE `auth_user` SET `last_login` = '2017-04-25 10:33:04.515000' WHERE `auth_user`.`id` = 3; args=(u'2017-04-25 10:33:04.515000', 3)
+(0.000) UPDATE `django_session` SET `session_data` = 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', `expire_date` = '2017-05-09 10:33:04.645000' WHERE `django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n'; args=(u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 10:33:04.645000', u'602b53wxy5guqie0y3dlw8arzmm1u84n')
+(0.100) INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALUES ('602b53wxy5guqie0y3dlw8arzmm1u84n', 'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', '2017-05-09 10:33:04.645000'); args=(u'602b53wxy5guqie0y3dlw8arzmm1u84n', u'NDQ1Njg5ZmQwZjhhYzAzZjAwNzk0NmFjMDRkODk4NjM0Y2IwMmIyZTp7Il9hdXRoX3VzZXJfaGFzaCI6ImU3NTQ2YmUyZDU0MmFkNmQ4Nzg5YmJkZGU4NTI5MWY2YTRjYWQyMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIzIn0=', u'2017-05-09 10:33:04.645000')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:33:07.776000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:33:07.776000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.005) SELECT `django_admin_log`.`id`, `django_admin_log`.`action_time`, `django_admin_log`.`user_id`, `django_admin_log`.`content_type_id`, `django_admin_log`.`object_id`, `django_admin_log`.`object_repr`, `django_admin_log`.`action_flag`, `django_admin_log`.`change_message`, `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined`, `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_admin_log` INNER JOIN `auth_user` ON ( `django_admin_log`.`user_id` = `auth_user`.`id` ) LEFT OUTER JOIN `django_content_type` ON ( `django_admin_log`.`content_type_id` = `django_content_type`.`id` ) WHERE `django_admin_log`.`user_id` = 3 ORDER BY `django_admin_log`.`action_time` DESC LIMIT 10; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:33:08.103000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:33:08.103000')
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.009) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:42:04.071000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:42:04.071000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:42:04.230000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:42:04.230000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:42:26.098000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:42:26.098000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.080) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('admin1', 'admin1', 'admin1', 'admin1', 'admin1', 'admin1'); args=[u'admin1', u'admin1', u'admin1', u'admin1', u'admin1', u'admin1']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 46, in add
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 10L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.006) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:56:21.557000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:56:21.557000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('admin1', 'admin1', 'admin1', 'admin1', 'admin1', 'admin1'); args=[u'admin1', u'admin1', u'admin1', u'admin1', u'admin1', u'admin1']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 46, in add
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 11L}' not found. 0 pattern(s) tried: []
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.006) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.006) SHOW FULL TABLES; args=None
+(0.000) SET foreign_key_checks=0; args=None
+(0.000) SET foreign_key_checks=1; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET foreign_key_checks=0; args=None
+(0.000) SET foreign_key_checks=1; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.015) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'logentry' AND `django_content_type`.`app_label` = 'admin'); args=('logentry', 'admin')
+(0.043) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`content_type_id` IN (1) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(1,)
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'admin'; args=('admin',)
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'permission' AND `django_content_type`.`app_label` = 'auth'); args=('permission', 'auth')
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'group' AND `django_content_type`.`app_label` = 'auth'); args=('group', 'auth')
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'user' AND `django_content_type`.`app_label` = 'auth'); args=('user', 'auth')
+(0.003) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`content_type_id` IN (2, 3, 4) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(2, 3, 4)
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'auth'; args=('auth',)
+(0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'contenttype' AND `django_content_type`.`app_label` = 'contenttypes'); args=('contenttype', 'contenttypes')
+(0.001) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`content_type_id` IN (5) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(5,)
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'contenttypes'; args=('contenttypes',)
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'session' AND `django_content_type`.`app_label` = 'sessions'); args=('session', 'sessions')
+(0.001) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`content_type_id` IN (6) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(6,)
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'sessions'; args=('sessions',)
+(0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'details' AND `django_content_type`.`app_label` = 'details'); args=('details', 'details')
+(0.001) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'login' AND `django_content_type`.`app_label` = 'details'); args=('login', 'details')
+(0.001) SELECT `auth_permission`.`content_type_id`, `auth_permission`.`codename` FROM `auth_permission` INNER JOIN `django_content_type` ON ( `auth_permission`.`content_type_id` = `django_content_type`.`id` ) WHERE `auth_permission`.`content_type_id` IN (13, 14) ORDER BY `django_content_type`.`app_label` ASC, `django_content_type`.`model` ASC, `auth_permission`.`codename` ASC; args=(13, 14)
+(0.000) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE `django_content_type`.`app_label` = 'details'; args=('details',)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:59:03.851000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:59:03.851000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 10:59:26.229000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 10:59:26.229000')
+(0.007) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.017) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('admin1', 'admin1', 'admin1', 'admin1', 'admin1', 'admin1'); args=[u'admin1', u'admin1', u'admin1', u'admin1', u'admin1', u'admin1']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 46, in add
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 12L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:06.076000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:06.076000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:07.162000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:07.162000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:07.398000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:07.398000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:08.331000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:08.331000')
+(0.006) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:23.657000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:23.657000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.007) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('admin1', 'admin1', 'admin1', 'admin1', 'admin1', 'admin1'); args=[u'admin1', u'admin1', u'admin1', u'admin1', u'admin1', u'admin1']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 46, in add
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 13L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:30.761000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:30.761000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.002) SELECT COUNT('*') AS `__count` FROM `details_details`; args=('*',)
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` ORDER BY `details_details`.`id` DESC; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:30.887000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:30.887000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:37.747000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:37.747000')
+(0.001) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 13; args=(13,)
+(0.004) SELECT `django_content_type`.`id`, `django_content_type`.`app_label`, `django_content_type`.`model` FROM `django_content_type` WHERE (`django_content_type`.`model` = 'details' AND `django_content_type`.`app_label` = 'details'); args=('details', 'details')
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 11:01:38.034000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 11:01:38.034000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:21:57.906000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:21:57.906000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:22:16.029000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:22:16.029000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.025) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('admin1', 'admin1', 'admin1', 'admin1', 'admin1', 'admin1'); args=[u'admin1', u'admin1', u'admin1', u'admin1', u'admin1', u'admin1']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 46, in add
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 14L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.004) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.016) SHOW FULL TABLES; args=None
+(0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:24:08.054000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:24:08.054000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:24:09.222000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:24:09.222000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 39, in add
+    post.song_name = request.song_name
+AttributeError: 'WSGIRequest' object has no attribute 'song_name'
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.011) SHOW FULL TABLES; args=None
+(0.004) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:28:21.370000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:28:21.370000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:28:22.439000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:28:22.439000')
+(0.002) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-25 17:28:35.573000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-25 17:28:35.573000')
+(0.000) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 39, in add
+    post.song_name = request.user.song_name
+  File "C:\Python27\lib\site-packages\django\utils\functional.py", line 227, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'song_name'
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.001) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.001) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.013) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.022) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.027) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.180) SHOW FULL TABLES; args=None
+(0.030) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.058) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-26 04:11:29.162000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-26 04:11:29.162000')
+(0.005) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.007) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-26 04:13:36.244000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-26 04:13:36.244000')
+(0.007) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 53, in add_edit
+    post = get_object_or_404(Post, pk=pk)
+NameError: global name 'get_object_or_404' is not defined
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.015) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 54, in add_edit
+    post = get_object_or_404(Post, pk=pk)
+NameError: global name 'Post' is not defined
+(0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.017) SHOW FULL TABLES; args=None
+(0.003) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 19, in <module>
+    url(r'', include('details.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\details\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 10, in <module>
+    from .models import Post
+ImportError: cannot import name Post
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 19, in <module>
+    url(r'', include('details.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\details\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 10, in <module>
+    from .models import Post
+ImportError: cannot import name Post
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 19, in <module>
+    url(r'', include('details.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\details\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 10, in <module>
+    from .models import Post
+ImportError: cannot import name Post
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 19, in <module>
+    url(r'', include('details.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\details\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 10, in <module>
+    from .models import Post
+ImportError: cannot import name Post
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 19, in <module>
+    url(r'', include('details.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\details\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 10, in <module>
+    from .models import Post
+ImportError: cannot import name Post
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 366, in resolve
+    for pattern in self.url_patterns:
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 402, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 396, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\guitar1\urls.py", line 19, in <module>
+    url(r'', include('details.urls')),
+  File "C:\Python27\lib\site-packages\django\conf\urls\__init__.py", line 33, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Python27\lib\importlib\__init__.py", line 37, in import_module
+    __import__(name)
+  File "C:\Users\shgaurav\guitar1\details\urls.py", line 2, in <module>
+    from . import views
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 10, in <module>
+    from .models import Post
+ImportError: cannot import name Post
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 12; args=(12,)
+(0.003) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-26 04:19:28.829000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-26 04:19:28.829000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE (`django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n' AND `django_session`.`expire_date` > '2017-04-26 04:19:37.109000'); args=('602b53wxy5guqie0y3dlw8arzmm1u84n', u'2017-04-26 04:19:37.109000')
+(0.003) SELECT `auth_user`.`id`, `auth_user`.`password`, `auth_user`.`last_login`, `auth_user`.`is_superuser`, `auth_user`.`username`, `auth_user`.`first_name`, `auth_user`.`last_name`, `auth_user`.`email`, `auth_user`.`is_staff`, `auth_user`.`is_active`, `auth_user`.`date_joined` FROM `auth_user` WHERE `auth_user`.`id` = 3; args=(3,)
+(0.000) SELECT `django_session`.`session_key`, `django_session`.`session_data`, `django_session`.`expire_date` FROM `django_session` WHERE `django_session`.`session_key` = '602b53wxy5guqie0y3dlw8arzmm1u84n'; args=('602b53wxy5guqie0y3dlw8arzmm1u84n',)
+(0.050) DELETE FROM `django_session` WHERE `django_session`.`session_key` IN ('602b53wxy5guqie0y3dlw8arzmm1u84n'); args=(u'602b53wxy5guqie0y3dlw8arzmm1u84n',)
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 41, in add
+    post.language = request.language
+AttributeError: 'WSGIRequest' object has no attribute 'language'
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 12; args=(12,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 12; args=(12,)
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 59, in add_edit
+    post.song_name = request.song_name
+AttributeError: 'WSGIRequest' object has no attribute 'song_name'
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 12; args=(12,)
+Internal Server Error: /add/12/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 59, in add_edit
+    post.song_name = request.song_name
+AttributeError: 'WSGIRequest' object has no attribute 'song_name'
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SHOW FULL TABLES; args=None
+(0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 41, in add
+    post.language = request.get('language')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+(0.003) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.015) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 41, in add
+    post.language = request.GET('language')
+TypeError: 'QueryDict' object is not callable
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.005) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 42, in add
+    post.cappo = request.cappo
+AttributeError: 'WSGIRequest' object has no attribute 'cappo'
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 42, in add
+    post.cappo = request.cappo
+AttributeError: 'WSGIRequest' object has no attribute 'cappo'
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.018) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('Test1', '9', 'India', 'Lyrics', 'http://type.com', 'test'); args=[u'Test1', u'9', u'India', u'Lyrics', u'http://type.com', u'test']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 47, in add
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 15L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 15; args=(15,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 15; args=(15,)
+Internal Server Error: /add/15/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 59, in add_edit
+    post.song_name = request.song_name
+AttributeError: 'WSGIRequest' object has no attribute 'song_name'
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.000) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 15; args=(15,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 15; args=(15,)
+(0.040) UPDATE `details_details` SET `song_name` = 'Test1', `cappo` = '9', `language` = 'India', `type` = 'Lyrics', `url` = 'http://type.com', `lyrics` = 'testxx' WHERE `details_details`.`id` = 15; args=(u'Test1', u'9', u'India', u'Lyrics', u'http://type.com', u'testxx', 15)
+Internal Server Error: /add/15/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 66, in add_edit
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 15L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.005) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 15; args=(15,)
+(0.015) UPDATE `details_details` SET `song_name` = 'Test1xx', `cappo` = '9', `language` = 'India', `type` = 'Lyrics', `url` = 'http://type.com', `lyrics` = 'testxx' WHERE `details_details`.`id` = 15; args=(u'Test1xx', u'9', u'India', u'Lyrics', u'http://type.com', u'testxx', 15)
+Internal Server Error: /add/15/edit/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 66, in add_edit
+    return redirect('add_detail', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'add_detail' with arguments '()' and keyword arguments '{'pk': 15L}' not found. 0 pattern(s) tried: []
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.013) SHOW FULL TABLES; args=None
+(0.007) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.038) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('Test1', '9', 'India', 'Lyrics', 'http://type.com', 'test'); args=[u'Test1', u'9', u'India', u'Lyrics', u'http://type.com', u'test']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 47, in add
+    return redirect('browse', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'browse' with arguments '()' and keyword arguments '{'pk': 16L}' not found. 1 pattern(s) tried: ['browse/$']
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.040) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('Test1', '9', 'India', 'Lyrics', 'http://type.com', 'test'); args=[u'Test1', u'9', u'India', u'Lyrics', u'http://type.com', u'test']
+Internal Server Error: /add/
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\shgaurav\guitar1\details\views.py", line 47, in add
+    return redirect('browse', pk=post.pk)
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 116, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 205, in resolve_url
+    return urlresolvers.reverse(to, args=args, kwargs=kwargs)
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 579, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "C:\Python27\lib\site-packages\django\core\urlresolvers.py", line 496, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'browse' with arguments '()' and keyword arguments '{'pk': 17L}' not found. 1 pattern(s) tried: ['browse/$']
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.010) SHOW FULL TABLES; args=None
+(0.002) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.017) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('Test1', '9', 'India', 'Lyrics', 'http://type.com', 'test'); args=[u'Test1', u'9', u'India', u'Lyrics', u'http://type.com', u'test']
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.008) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.013) INSERT INTO `details_details` (`song_name`, `cappo`, `language`, `type`, `url`, `lyrics`) VALUES ('Haule haule', '6', 'Hindi', 'Lyrics', 'http://type.com', 'ttt'); args=[u'Haule haule', u'6', u'Hindi', u'Lyrics', u'http://type.com', u'ttt']
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.012) SHOW FULL TABLES; args=None
+(0.005) SELECT `django_migrations`.`app`, `django_migrations`.`name` FROM `django_migrations`; args=()
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 10; args=(10,)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 10; args=(10,)
+(0.052) UPDATE `details_details` SET `song_name` = 'test10', `cappo` = '3', `language` = 'English', `type` = 'Video', `url` = 'http://type.com', `lyrics` = 'test10' WHERE `details_details`.`id` = 10; args=(u'test10', u'3', u'English', u'Video', u'http://type.com', u'test10', 10)
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.002) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` LIMIT 21; args=()
+(0.000) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details`; args=()
+(0.002) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.000) SET SQL_AUTO_IS_NULL = 0; args=None
+(0.003) SELECT `details_details`.`id`, `details_details`.`song_name`, `details_details`.`cappo`, `details_details`.`language`, `details_details`.`type`, `details_details`.`url`, `details_details`.`lyrics` FROM `details_details` WHERE `details_details`.`id` = 10; args=(10,)

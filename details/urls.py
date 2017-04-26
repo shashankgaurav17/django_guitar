@@ -14,6 +14,10 @@ urlpatterns = [
     url(r'^details/$', DetailsList.as_view(), name='details'),
     url(r'^details/(?P<album_id>[0-9]+)*', DetailsId.as_view(), name='detailsId'),
     
+
+    url(r'^add/$', views.add, name='add'),
+    url(r'^add/(?P<pk>\d+)/edit/$', views.add_edit, name='add_edit'),
+
     #url(r'^details/', DetailsId.as_view(), name='detailsId'),
     #browse
     url(r'^browse/$', views.browse, name='browse'),
